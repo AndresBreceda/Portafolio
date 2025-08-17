@@ -2,7 +2,7 @@ import { GithubIcon, InstagramIcon, Linkedin, Mail } from "lucide-react";
 
 export default function Footer(){
     return(
-    <footer className="bg-black flex justify-between p-10 text-white">
+    <footer className="bg-black flex justify-between p-10 text-white mt-10">
         <div>
             {/* cambiar a logo en blanco */}
             <img 
