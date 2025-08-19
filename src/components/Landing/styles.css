@@ -1,0 +1,17 @@
+.spin-y-once {
+  transition: color 0.3s ease-in-out 0.4s; /* el último valor es el delay */
+}
+
+.group:hover .spin-y-once {
+  animation: spinYOnce 0.7s ease-in-out;
+  color: white;
+}
+
+@keyframes spinYOnce {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

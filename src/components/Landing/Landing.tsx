@@ -1,4 +1,5 @@
 import { Download, Github, Linkedin, Mail } from "lucide-react";
+import './styles.css';
 
 export default function Landing() {
   return (
@@ -36,59 +37,71 @@ export default function Landing() {
         </div>
 
         {/* Caja 2 - Amarillo con video de fondo */}
-        <div
+        <a
+        href="/#Proyectos"
         className="relative group col-start-3 bg-white border-8 border-black flex items-center justify-center text-2xl font-bold overflow-hidden text-center p-6"
         style={{ borderStyle: "double" }}
         >
-        {/* Overlay amarillo (animado con hover) */}
-        <div className="absolute inset-0 bg-yellow-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out opacity-70"></div>
+          {/* Overlay amarillo (animado con hover) */}
+          <div className="absolute inset-0 bg-yellow-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out opacity-70"></div>
 
-        {/* Texto encima */}
-        <div className="relative z-10 text-black">
-            <span>Revisa mis proyectos</span>
-        </div>
-        </div>
+          {/* Texto encima */}
+          <div className="relative z-10 text-black group-hover:text-white ">
+              <span>Revisa mis proyectos</span>
+          </div>
+        </a>
 
 
         {/* Caja 3 - Verde */}
-        <div
+        <a
+          href="andres-esquivel-cv.pdf"
           className="relative group col-start-3 row-start-2 bg-white border-8 border-black flex flex-col items-center justify-center text-2xl font-bold gap-4 overflow-hidden text-center p-6"
           style={{ borderStyle: "double" }}
+          download
         >
-          <span className="relative z-10">Descarga mi CV</span>
-          <Download size={72} className="relative z-10" />
+          <span className="relative z-10 text-black group-hover:text-white">Descarga mi CV</span>
+          <Download size={72} className="relative z-10 text-black group-hover:text-white spin-y-once" />
           <div className="absolute inset-0 bg-green-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
+        </a>
 
         {/* Caja 4 - Azul clarito */}
-        <div
+        <a
+          href="mailto:a.e.breceda@gmail.com"
           className="relative group row-start-3 bg-white border-8 border-black flex flex-col items-center justify-center text-2xl font-bold gap-4 overflow-hidden text-center p-6"
           style={{ borderStyle: "double" }}
         >
-          <span className="relative z-10">Contáctame por Email</span>
-          <Mail size={72} className="relative z-10" />
+          <span className="relative z-10 text-black group-hover:text-white">Contáctame por Email</span>
+          <Mail size={72} className="relative z-10 text-black group-hover:text-white spin-y-once" />
           <div className="absolute inset-0 bg-sky-300 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
+        </a>
 
         {/* Caja 5 - Azul */}
-        <div
+        <a
+          href="https://www.linkedin.com/in/andres-esquivel-breceda/"
           className="relative group row-start-3 bg-white border-8 border-black flex flex-col items-center justify-center text-2xl font-bold gap-4 overflow-hidden p-6"
           style={{ borderStyle: "double" }}
+          target="_blank"
         >
-          <span className="relative z-10">LinkedIn</span>
-          <Linkedin size={72} className="relative z-10" />
+          <span className="relative z-10 text-black group-hover:text-white">LinkedIn</span>
+          <Linkedin size={72} className="relative z-10 text-black group-hover:text-white spin-y-once" />
           <div className="absolute inset-0 bg-blue-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
+        </a>
 
         {/* Caja 6 - Roja */}
-        <div
+        <a
+          href="https://github.com/AndresBreceda"
           className="relative group row-start-3 bg-white border-8 border-black flex flex-col items-center justify-center text-2xl font-bold gap-4 overflow-hidden p-6"
           style={{ borderStyle: "double" }}
+          target="_blank"
         >
-          <span className="relative z-10">GitHub</span>
-          <Github size={72} className="relative z-10" />
+          <span className="relative z-10 text-black group-hover:text-white">GitHub</span>
+          <Github
+            size={72}
+            className="relative z-10 text-black group-hover:text-white spin-y-once"
+          />
+
           <div className="absolute inset-0 bg-red-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></div>
-        </div>
+        </a>
       </div>
     </div>
   );
