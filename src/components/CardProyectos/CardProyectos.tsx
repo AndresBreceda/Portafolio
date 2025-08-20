@@ -17,12 +17,13 @@ export default function Card({ imagen, titulo, explicacion, direccion1, direccio
         <img
           src={imagen}
           alt="placeholder"
-          className="object-cover rounded"
+          className="object-cover rounded transition-transform duration-500 hover:scale-500"
         />
       </div>
 
       {/* Texto */}
       <div className="flex flex-col gap-4">
+        
         <h1 className="text-2xl font-bold text-gray-800">
           {titulo}
         </h1>
@@ -32,7 +33,7 @@ export default function Card({ imagen, titulo, explicacion, direccion1, direccio
 
         {/* Botones */}
         <div className="flex gap-4">
-          <a href={direccion1} className="flex items-center gap-2 px-4 py-2 bg-red-600 text-white font-semibold rounded-md shadow hover:bg-red-700 transition">
+          <a href={direccion1} target="_blank" className="flex items-center gap-2 px-4 py-2 bg-red-600 text-white font-semibold rounded-md shadow hover:bg-red-700 transition">
             <GithubIcon /> Codigo
           </a>
           <a href={direccion2} className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition">

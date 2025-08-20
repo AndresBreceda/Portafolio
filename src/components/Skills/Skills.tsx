@@ -17,11 +17,12 @@ export default function Skills() {
           <h2 className="text-4xl font-semibold">Frontend</h2>
           <Grid 
             images={[
-            { src: "./React.png", title: "React" },
-            { src: "https://via.placeholder.com/150", title: "Tailwind" },
-            { src: "https://via.placeholder.com/150", title: "C#" },
-            { src: "https://via.placeholder.com/150", title: "PostgreSQL" },
-            { src: "https://via.placeholder.com/150", title: "GitHub" },
+            { src: "./React.png", title: "React", gradientColor: "#0000FF" },
+            { src: "./typescript.png", title: "Typescript" },
+            { src: "./tailwind.png", title: "TailwindCss", gradientColor: "#38bdf8" },
+            { src: "./html.png", title: "HTML" },
+            { src: "./css.png", title: "Css" },
+            { src: "./javascript.png", title: "JavaScript" },
           ]}/>
         </div>
 
@@ -30,23 +31,24 @@ export default function Skills() {
           <h2 className="text-4xl font-semibold">Backend</h2>
           <Grid
             images={[
-            { src: "./React.png", title: "React" },
-            { src: "https://via.placeholder.com/150", title: "Tailwind" },
-            { src: "https://via.placeholder.com/150", title: "C#" },
-            { src: "https://via.placeholder.com/150", title: "PostgreSQL" },
-            { src: "https://via.placeholder.com/150", title: "GitHub" },
+            { src: "./c-gato.svg", title: "C#", gradientColor: "#944a91" },
+            { src: "./php.png", title: "Php", gradientColor: "#6f76a9" },
+            { src: "./python.jpg", title: "Python", gradientColor: "#fedb52" },
           ]}/>
         </div>
 
         {/* Otras tecnologías */}
         <div className="flex flex-col items-center gap-2">
           <h2 className="text-4xl font-semibold">Otras Tecnologías</h2>
-          <Grid             images={[
-            { src: "./React.png", title: "React" },
-            { src: "https://via.placeholder.com/150", title: "Tailwind" },
-            { src: "https://via.placeholder.com/150", title: "C#" },
-            { src: "https://via.placeholder.com/150", title: "PostgreSQL" },
-            { src: "https://via.placeholder.com/150", title: "GitHub" },
+          <Grid             
+          images={[
+            { src: "./sql.png", title: "SQL" },
+            { src: "./mongo.webp", title: "MongoDB", gradientColor: "#11aa50" },
+            { src: "./git.png", title: "Git", gradientColor: "#F05033 " },
+            { src: "./github.png", title: "GitHub", gradientColor: "" },
+            { src: "./linux.jpg", title: "Linux", gradientColor: "#ecb20a" },
+            { src: "./docker.png", title: "Docker", gradientColor: "#099cec" },
+            { src: "./Azure.png", title: "Azure" },
           ]}/>
         </div>
 
