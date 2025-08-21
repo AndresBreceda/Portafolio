@@ -18,11 +18,11 @@ export default function Skills() {
           <Grid 
             images={[
             { src: "./React.png", title: "React", gradientColor: "#0000FF" },
-            { src: "./typescript.png", title: "Typescript" },
+            { src: "./typescript.png", title: "Typescript", gradientColor: "#3178c6"  },
             { src: "./tailwind.png", title: "TailwindCss", gradientColor: "#38bdf8" },
-            { src: "./html.png", title: "HTML" },
-            { src: "./css.png", title: "Css" },
-            { src: "./javascript.png", title: "JavaScript" },
+            { src: "./html.png", title: "HTML", gradientColor: "#E44D26"  },
+            { src: "./css.png", title: "Css", gradientColor: "#2BA1D2"  },
+            { src: "./javascript.png", title: "JavaScript", gradientColor: "#F7DF1E"  },
           ]}/>
         </div>
 
@@ -33,7 +33,7 @@ export default function Skills() {
             images={[
             { src: "./c-gato.svg", title: "C#", gradientColor: "#944a91" },
             { src: "./php.png", title: "Php", gradientColor: "#6f76a9" },
-            { src: "./python.jpg", title: "Python", gradientColor: "#fedb52" },
+            { src: "./py.png", title: "Python", gradientColor: "#fedb52" },
           ]}/>
         </div>
 
@@ -42,13 +42,13 @@ export default function Skills() {
           <h2 className="text-4xl font-semibold">Otras Tecnologías</h2>
           <Grid             
           images={[
-            { src: "./sql.png", title: "SQL" },
+            { src: "./sql.png", title: "SQL" , gradientColor: "#DF6E24" },
             { src: "./mongo.webp", title: "MongoDB", gradientColor: "#11aa50" },
             { src: "./git.png", title: "Git", gradientColor: "#F05033 " },
-            { src: "./github.png", title: "GitHub", gradientColor: "" },
-            { src: "./linux.jpg", title: "Linux", gradientColor: "#ecb20a" },
+            { src: "./github.png", title: "GitHub", gradientColor: "#BA24DF"  },
+            { src: "./linux.png", title: "Linux", gradientColor: "#ecb20a" },
             { src: "./docker.png", title: "Docker", gradientColor: "#099cec" },
-            { src: "./Azure.png", title: "Azure" },
+            { src: "./Azure.png", title: "Azure", gradientColor: "#0000FF"  },
           ]}/>
         </div>
 

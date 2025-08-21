@@ -30,7 +30,13 @@ export default function Landing() {
               </p>
               <p className="text-xl leading-relaxed">
                 Tengo un año de experiencia en desarrollo web, además de
-                trabajar como profesor de inglés, portugués y francés.
+                trabajar como profesor de inglés, portugués y francés.<p>
+  <span className="fi fi-us"></span> USA
+  <span className="fi fi-br"></span> Brasil
+  <span className="fi fi-mx"></span> México
+  <span className="fi fi-fr"></span> Francia
+</p>
+
               </p>
             </div>
           </div>

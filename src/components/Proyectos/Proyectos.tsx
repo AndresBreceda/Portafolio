@@ -17,7 +17,7 @@ import CardProyectos from "../CardProyectos/CardProyectos";
     </>
     );
 
-        let explicacion2: JSX.Element = (
+    let explicacion2: JSX.Element = (
     <>
         Con ProntoCv puedes tener tu CV pronto en segundos; en este proyectos de la universidad cree una pagina web 
         para crear Cv de manera rapida y sencilla, escogiendo 8 plantillas, podemas customizar la información (no las plantillas)
