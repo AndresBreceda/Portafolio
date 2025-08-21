@@ -1,6 +1,10 @@
 import { AlignJustify } from "lucide-react";
 
-export default function Header() {
+type HeaderProps = {
+  abrirPanel: () => void;
+};
+
+export default function Header({ abrirPanel }: HeaderProps) {
   return (
     <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-6 bg-white/70 backdrop-blur-md border-b border-gray-300">
       <a href="/" className="flex items-center gap-3">
@@ -14,9 +18,9 @@ export default function Header() {
         </div>
       </a>
 
-      <div>
+        <button onClick={abrirPanel}>
         <AlignJustify className="w-6 h-6" />
-      </div>
+      </button>
     </header>
   );
 }

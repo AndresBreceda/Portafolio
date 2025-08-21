@@ -15,7 +15,7 @@ export default function Landing() {
             {/* Imagen */}
             <div className="flex-1 flex justify-center items-center p-6">
               <img
-                src="./andres-logo.webp"
+                src="./yo.jpeg"
                 alt="imagen de andres"
                 className="max-w-full h-auto object-contain rounded-xl"
               />
@@ -23,18 +23,15 @@ export default function Landing() {
             {/* Texto */}
             <div className="flex-1 flex flex-col justify-center p-6">
               <p className="text-2xl mb-4">
-                Hola soy <strong>Andrés E. Breceda</strong>
+                Hola soy <strong>Andrés E. Breceda</strong>  <span className="fi fi-mx"></span> 
               </p>
               <p className="text-4xl font-bold mb-4">
                 Desarrollador Web Full-stack
               </p>
               <p className="text-xl leading-relaxed">
                 Tengo un año de experiencia en desarrollo web, además de
-                trabajar como profesor de inglés, portugués y francés.<p>
-  <span className="fi fi-us"></span> USA
-  <span className="fi fi-br"></span> Brasil
-  <span className="fi fi-mx"></span> México
-  <span className="fi fi-fr"></span> Francia
+                trabajar como profesor de inglés  <span className="fi fi-us"></span>, portugués  <span className="fi fi-br"></span> y francés  <span className="fi fi-fr"></span>.<p>
+
 </p>
 
               </p>
