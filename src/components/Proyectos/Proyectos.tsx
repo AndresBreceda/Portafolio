@@ -51,8 +51,8 @@ export default function Proyectos() {
   
       {/* Lista de Cards */}
       <div className="flex flex-col items-center gap-8 w-full">
-        <CardProyectos imagen={"./logipack/landing.png"} titulo={"Servicio de paquetería de Logipack"} explicacion={explicacion1} direccion1={"https://github.com/AndresBreceda/Papa"} direccion2={"/Logipack"} />
-        <CardProyectos imagen={"./Pronto/landing.png"} titulo={"ProntoCv"} explicacion={explicacion2} direccion1={"https://github.com/AndresBreceda/AdministracionHumberto"} direccion2={"/ProntoCv"} />
+        <CardProyectos imagen={"./logipack/landing.webp"} titulo={"Servicio de paquetería de Logipack"} explicacion={explicacion1} direccion1={"https://github.com/AndresBreceda/Papa"} direccion2={"/Logipack"} />
+        <CardProyectos imagen={"./Pronto/landing.webp"} titulo={"ProntoCv"} explicacion={explicacion2} direccion1={"https://github.com/AndresBreceda/AdministracionHumberto"} direccion2={"/ProntoCv"} />
 
       </div>
     </div>

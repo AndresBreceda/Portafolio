@@ -50,7 +50,7 @@ export default function Logipack(){
 
             <ProyectoDetalle 
             titulo="Servicio de paqueteria"
-            imagenes={["./logipack/landing.png", "./logipack/descarga.png", "./logipack/pdf1.png"]}
+            imagenes={["./logipack/landing.webp", "./logipack/descarga.webp", "./logipack/pdf1.webp"]}
             tecnologias={[
                 { nombre: "React", color: "#61DAFB" },
                 { nombre: "Tailwind", color: "linear-gradient(to right, #06B6D4, #3B82F6)" },

@@ -29,7 +29,7 @@ export default function Logros() {
       <div className="flex items-center gap-4">
         <div className="w-32 h-20 border-2 border-black overflow-hidden rounded-md flex items-center justify-center bg-white">
         <img
-            src="./rotary.png"
+            src="./rotary.webp"
             className="max-w-[80%] max-h-[80%] object-contain"
         />
         </div>

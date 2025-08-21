@@ -29,14 +29,14 @@ export default function Formacion() {
       <div className="flex justify-center items-start gap-8">
         <Reconocimiento
           institucion={titulo}
-          logo="./uca.png"
+          logo="./uca.webp"
           subtexto="Ingeniería en Diseño y Desarrollo de Software"
           tiempo="2023 - 2026"
         />
 
         <Reconocimiento
           institucion="Preparatoria de la Universidad Cuauhtémoc Aguascalientes"
-          logo="./uca.png"
+          logo="./uca.webp"
           subtexto="Técnico en Comunicación y Medios digitales"
           tiempo="2019 - 2022"
         />

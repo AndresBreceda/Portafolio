@@ -15,7 +15,7 @@ export default function Landing() {
             {/* Imagen */}
             <div className="flex-1 flex justify-center items-center p-6">
               <img
-                src="./yo.jpeg"
+                src="./yo.webp"
                 alt="imagen de andres"
                 className="max-w-full h-auto object-contain rounded-xl"
               />

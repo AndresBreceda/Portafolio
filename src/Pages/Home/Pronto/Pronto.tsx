@@ -58,7 +58,7 @@ export default function Pronto(){
 
             <ProyectoDetalle 
             titulo="Pronto Cv"
-            imagenes={["./Pronto/landing.png", "./Pronto/plantillas.png", "./Pronto/formulario.png"]}
+            imagenes={["./Pronto/landing.webp", "./Pronto/plantillas.webp", "./Pronto/formulario.webp"]}
             tecnologias={[
                 { nombre: "React", color: "#61DAFB" },
                 { nombre: "Tailwind", color: "linear-gradient(to right, #06B6D4, #3B82F6)" },

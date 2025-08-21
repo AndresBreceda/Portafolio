@@ -28,7 +28,7 @@ export default function Footer(){
                 </a>
                     
                 <a className="hover:text-yellow-400" href="https://github.com/AndresBreceda" target="_blank">
-                    <GithubIcon size={32}></GithubIcon>       <span></span>              
+                    <GithubIcon size={32}></GithubIcon>             
                 </a>
 
             </div>
