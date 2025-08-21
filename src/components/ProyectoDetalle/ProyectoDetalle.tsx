@@ -19,7 +19,7 @@ const ProyectoDetalle: React.FC<ProyectoDetalleProps> = ({
   descripciones,
 }) => {
   return (
-    <div className="flex gap-6 p-8 mt-20">
+    <div className="flex gap-6 p-8 mt-20" id="Proyectos">
       {/* Columna izquierda (imagenes) */}
       <div className="flex flex-col gap-6 w-1/3">
         {imagenes.map((img, index) => (

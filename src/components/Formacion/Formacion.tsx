@@ -9,7 +9,7 @@ let titulo: JSX.Element = (
 
 export default function Formacion() {
   return (
-    <div className="flex flex-col items-center mt-10 gap-10">
+    <div className="flex flex-col items-center mt-10 gap-10" id="Formacion">
       {/* Título con adornos */}
       <div className="flex justify-center items-center gap-4">
         <img

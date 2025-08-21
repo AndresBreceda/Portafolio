@@ -2,7 +2,7 @@ import LanguageCard from "../Language/Language";
 
 export default function Logros() {
   return (
-    <div className="flex flex-col items-center gap-10 mt-10">
+    <div className="flex flex-col items-center gap-10 mt-10" id="Logros">
       {/* Encabezado con adornos */}
       <div className="flex items-center justify-center gap-4">
         <img

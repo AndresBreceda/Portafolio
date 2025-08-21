@@ -4,7 +4,7 @@ import './styles.css';
 export default function Landing() {
   return (
     <div className="min-h-screen p-10 mt-20">
-      <div className="grid grid-cols-3 grid-rows-3 gap-6 h-full">
+      <div className="grid grid-cols-3 grid-rows-3 gap-6 h-full" id="inicio">
 
         {/* Caja principal */}
         <div
@@ -69,7 +69,8 @@ export default function Landing() {
 
         {/* Caja 4 - Azul clarito */}
         <a
-          href="mailto:a.e.breceda@gmail.com"
+         href="https://mail.google.com/mail/?view=cm&to=a.e.breceda@gmail.com" target="_blank"
+          // href="mailto:a.e.breceda@gmail.com"
           className="relative group row-start-3 bg-white border-8 border-black flex flex-col items-center justify-center text-2xl font-bold gap-4 overflow-hidden text-center p-6"
           style={{ borderStyle: "double" }}
         >

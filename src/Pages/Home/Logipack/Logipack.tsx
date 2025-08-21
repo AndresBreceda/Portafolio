@@ -1,7 +1,8 @@
-import type { JSX } from "react";
+import { useState, type JSX } from "react";
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
 import ProyectoDetalle from "../../../components/ProyectoDetalle/ProyectoDetalle";
+import SidePanel from "../../../components/Sidepanel/Sidepanel";
 
 let explicacion1: JSX.Element = (
   <>
@@ -40,9 +41,12 @@ let explicacion1: JSX.Element = (
 
 
 export default function Logipack(){
+      const [panelAbierto, setPanelAbierto] = useState(false);
+
     return (
         <div>
-            <Header></Header>
+            <Header abrirPanel={() => setPanelAbierto(true)} />
+            <SidePanel abierto={panelAbierto} cerrarPanel={() => setPanelAbierto(false)} />
 
             <ProyectoDetalle 
             titulo="Servicio de paqueteria"

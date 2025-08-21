@@ -2,7 +2,7 @@ import Card from "../Card/Card";
 
 export default function Experiencia() {
   return (
-    <div className="flex flex-col items-center gap-10">
+    <div className="flex flex-col items-center gap-10" id="Experiencia">
       {/* Título con adornos */}
       <div className="flex items-center justify-center gap-4">
         <img

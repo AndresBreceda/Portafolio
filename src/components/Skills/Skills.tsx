@@ -2,7 +2,7 @@ import Grid from "../Grid/Grid";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col items-center gap-2 m-10">
+    <div className="flex flex-col items-center gap-2 m-10" id="Skills">
       {/* Encabezado principal */}
       <div className="flex justify-center items-center gap-2">
         <img src="./adorno3.svg" className="w-120" alt="adorno izquierdo" />
